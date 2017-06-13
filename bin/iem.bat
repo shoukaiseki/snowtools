@@ -25,6 +25,7 @@ call "%SNOW_HOME%\bin\snowconfig.bat"
 call %SNOW_HOME%/bin/maximoToolsJavajars.bat
 
 @REM echo CLASSPATH=%CLASSPATH%
+cd /D %CURRENT_DIR%
 @ECHO ON
 %_RUNJAVA%  -Dsnow.home="%SNOW_HOME%" -Dsnow.config="%SNOW_HOME%\config" org.maximo.tools.impexcle.ImpExcleMain %*
 @ECHO OFF
