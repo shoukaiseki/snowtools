@@ -1,12 +1,17 @@
 <?xml version='1.0'  encoding='UTF-8' ?>
-<RESULTS TABLE="TEST1" APPNAME="" INCLUDEATTS="A,B,C,D,E,F,G,H" EXCLUDEATTS="" JDBCNAME="localhost_orcl"  EXCLE="">
+<RESULTS TABLE="SNOW_TEST1" APPNAME="" INCLUDEATTS="A,B,C,D,E,F,G,H" EXCLUDEATTS="" JDBCNAME="localhost_orcl"  EXCLE="">
+	<!--
+	     只支持 TRIGGERBEANSHELL EXCLEDATASAX EDCOLUMN 三种任务标签
+	     因为 iem 支持大文件excle导入
+
+	     -->
 
 
 	<TRIGGERBEANSHELL ISENABLED="OFF" ACLASS="org.maximo.app.config.TestTriggerBSH2"><![CDATA[
 		]]>
 	</TRIGGERBEANSHELL>
 
-	<EXCLEDATA NAME="test.xls" TITLECOUNT="1" SHEET="2">
+	<EXCLEDATASAX NAME="test.xlsx" TITLECOUNT="1" SHEET="2">
 		<EDCOLUMN COLUMNNAME="F" CELLNAME="F"><![CDATA[
 			//將excle讀出的 1.0 格式 轉化成 1
 			if(ixf.isNullOrTrimEmpty(value)){
@@ -23,8 +28,8 @@
 			//om.info(value);
 			return new java.text.DecimalFormat("0000.0").parse(value)+"";
 			]]></EDCOLUMN>
-	</EXCLEDATA>
-	<EXCLEDATA NAME="test.xls" TITLECOUNT="1" SHEET="11">
+	</EXCLEDATASAX>
+	<EXCLEDATASAX NAME="test.xlsx" TITLECOUNT="1" SHEET="11">
 		<EDCOLUMN COLUMNNAME="F" CELLNAME="F"><![CDATA[
 			//將excle讀出的 1.0 格式 轉化成 1
 			if(ixf.isNullOrTrimEmpty(value)){
@@ -41,5 +46,5 @@
 			//om.info(value);
 			return new java.text.DecimalFormat("0000.0").parse(value)+"";
 			]]></EDCOLUMN>
-	</EXCLEDATA>
+	</EXCLEDATASAX>
 </RESULTS>

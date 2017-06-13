@@ -6,7 +6,7 @@
 		]]>
 	</TRIGGERBEANSHELL>
 
-	<EXCLEDATA NAME="test.xls" TITLECOUNT="1" SHEET="2">
+	<EXCLEDATASAX NAME="test.xlsx" TITLECOUNT="1" SHEET="2">
 		<EDCOLUMN COLUMNNAME="F" CELLNAME="F"><![CDATA[
 			//將excle讀出的 1.0 格式 轉化成 1
 			if(ixf.isNullOrTrimEmpty(value)){
@@ -23,8 +23,8 @@
 			//om.info(value);
 			return new java.text.DecimalFormat("0000.0").parse(value)+"";
 			]]></EDCOLUMN>
-	</EXCLEDATA>
-	<EXCLEDATA NAME="test.xls" TITLECOUNT="1" SHEET="11">
+	</EXCLEDATASAX>
+	<EXCLEDATASAX NAME="test.xlsx" TITLECOUNT="1" SHEET="11">
 		<EDCOLUMN COLUMNNAME="F" CELLNAME="F"><![CDATA[
 			//將excle讀出的 1.0 格式 轉化成 1
 			if(ixf.isNullOrTrimEmpty(value)){
@@ -41,5 +41,5 @@
 			//om.info(value);
 			return new java.text.DecimalFormat("0000.0").parse(value)+"";
 			]]></EDCOLUMN>
-	</EXCLEDATA>
+	</EXCLEDATASAX>
 </RESULTS>
