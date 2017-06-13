@@ -1,5 +1,5 @@
-import com.maximo.app.MTException;
-import com.shoukaiseki.tuuyou.logger.PrintLogs;
+import org.maximo.app.MTException;
+import org.shoukaiseki.tuuyou.logger.PrintLogs;
 
 
 public class TestPrintLogs {

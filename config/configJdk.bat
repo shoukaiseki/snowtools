@@ -3,7 +3,7 @@ set JAVA_JDK18=D:/usr/Java/jdk1.8.0_65
 set JAVA_JDK17=D:/usr/Java/jdk1.7.0_51
 
 @REM JAVA_ANTPROJECTLIB SNOW_LIB
-set SNOW_LIB=%SNOW_HOME%/libs
+set SNOW_LIB=%SNOW_HOME%/lib
 set JAVA_HOME=%JAVA_JDK18%
 @REM #$JAVA_HOME/lib/dt.jar;$JAVA_HOME/lib/tools.jar;$JAVA_HOME/jre/lib/rt.jar;/home/fedora/.vim/;
 set CLASSPATH=.;

@@ -9,7 +9,7 @@ import org.apache.log4j.PatternLayout;
 import org.apache.log4j.spi.LoggingEvent;
 import org.apache.log4j.varia.LevelMatchFilter;
 
-import com.maximo.app.MTException;
+import org.maximo.app.MTException;
 
 
 public class TestLogger {

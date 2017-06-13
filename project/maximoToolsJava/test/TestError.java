@@ -1,7 +1,7 @@
 import bsh.EvalError;
 import bsh.Interpreter;
 
-import com.maximo.app.MTException;
+import org.maximo.app.MTException;
 
 
 public class TestError {
@@ -28,7 +28,7 @@ public class TestError {
 		Interpreter i = new Interpreter();  // Construct an interpreter
 		String bsh="int as=12;return  new MTException(\"測試報錯\");;";
 					try {
-						i.eval("import com.maximo.app.MTException;");
+						i.eval("import org.maximo.app.MTException;");
 						Object eval = i.eval(bsh);
 						if(eval!=null){
 							if(eval instanceof MTException){

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<References xmlns="http://xmlns.oracle.com/adf/jndi" seisiki="crpjs100_8888">
+	<Reference name="crpjs70_8888">
+		<RefAddresses>
+			<StringRefAddr addrType="server">
+				<Contents>172.22.48.70:13400/MXServer</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maxadmin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>maxadmin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ddsname" description="該MXServer所對應的 DruidDataSource-configure.xml 中的數據庫鏈接名,用於記錄日誌">
+				<Contents>crpxz_zsk_maxdb</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="crpjs101_7001">
+		<RefAddresses>
+			<StringRefAddr addrType="server">
+				<Contents>172.22.48.101:13471/MXServer</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maxadmin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>maxadmin</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+</References>

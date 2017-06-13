@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<References xmlns="http://xmlns.oracle.com/adf/jndi" seisiki="crpxz_zsk_maxdb">
+	<Reference name="localhost_orcl">
+		<RefAddresses>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="initialSize">
+				<Contents>10</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="minPoolSize">
+				<Contents>15</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="maxPoolSize">
+				<Contents>30</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="maxActive">
+				<Contents>25</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="server">
+		<RefAddresses>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.84)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.85)(PORT=1521)))(CONNECT_DATA=(SERVER=dedicated)(SERVICE_NAME=orcldb)))
+</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="initialSize">
+				<Contents>10</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="minPoolSize">
+				<Contents>15</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="maxPoolSize">
+				<Contents>30</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="maxActive">
+				<Contents>25</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+</References>

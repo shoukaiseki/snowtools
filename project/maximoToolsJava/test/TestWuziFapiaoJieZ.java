@@ -10,12 +10,12 @@ import java.util.HashSet;
 import org.apache.log4j.Level;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.maximo.app.MTException;
-import com.maximo.app.MessageOnTerminal;
-import com.maximo.app.OutMessage;
-import com.maximo.app.config.ReadDruidDataSourceKonnfigu;
-import com.shoukaiseki.sql.oracle.OracleSqlDetabese;
-import com.shoukaiseki.tuuyou.logger.PrintLogs;
+import org.maximo.app.MTException;
+import org.maximo.app.MessageOnTerminal;
+import org.maximo.app.OutMessage;
+import org.maximo.app.config.ReadDruidDataSourceKonnfigu;
+import org.shoukaiseki.sql.oracle.OracleSqlDetabese;
+import org.shoukaiseki.tuuyou.logger.PrintLogs;
 
 /** 对账时候碰到金额差距,但是不知道哪几笔导致的怎么办? 就用该程序
  * @author 蒋カイセキ    Japan-Tokyo  2014年8月3日

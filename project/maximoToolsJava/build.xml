@@ -8,13 +8,14 @@
 -->
 
 <!-- jdk版本 {{{1 -->
-<!--jdk160_05-->
-<!--jdk1.7.0_04-->
+<!--jdk1.6-->
+<!--jdk1.7-->
+<!--jdk1.8-->
 <!--javaCompiler 編譯是使用的默認jdk -->
 <project name="maximoToolsJava" default="build_no_doc_release" basedir=".">
 	<!-- 引用外部配置文件 {{{1 -->
 	<property file="build.properties"/>
-	<!--<property file="../../jdk.properties"/>-->
+	<!--<property file="../jdk_linux.properties"/>-->
 	<property file="../jdk_win.properties"/>
 
 	<path id="libs">
@@ -22,7 +23,7 @@
 		<fileset dir="${lib.dir}">
 			<!--/media/develop/antProject/javaant/libs/-->
 			<include name="maximolib/maximo7.5/businessobjects.jar"/>
-			<include name="druid-0.2.9.jar"/>
+			<include name="druid-1.0.5.jar"/>
 			<include name="mylib/shoukaiseki.jar"/>
 			<include name="log4j-1.2.17.jar"/>
 			<!--

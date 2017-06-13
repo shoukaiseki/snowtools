@@ -1,9 +1,9 @@
-import com.maximo.tools.impxml.bsh.TriggerBSH;
+import org.maximo.tools.impxml.bsh.TriggerBSH;
 
-import com.maximo.app.MTException;
-import com.maximo.app.OutMessage;
-import com.maximo.tools.impxml.task.*;
-import com.maximo.tools.impxml.*;
+import org.maximo.app.MTException;
+import org.maximo.app.OutMessage;
+import org.maximo.tools.impxml.task.*;
+import org.maximo.tools.impxml.*;
 import java.sql.*;
 
 

@@ -1,7 +1,7 @@
 import java.math.BigDecimal;
 import java.util.Set;
 
-import com.shoukaiseki.lottery.LotteryBonusCalculation;
+import org.shoukaiseki.lottery.LotteryBonusCalculation;
 
 
 public class TTTTT extends LotteryBonusCalculation{

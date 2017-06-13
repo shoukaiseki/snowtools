@@ -1,4 +1,3 @@
-import com.tomaximo.test;
 
 import java.io.*;
 import java.sql.SQLException;
@@ -13,9 +12,8 @@ import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 import org.dom4j.tree.DefaultCDATA;
+import org.shoukaiseki.tuuyou.logger.PrintLogs;
 
-import com.shoukaiseki.file.SousaFairu;
-import com.shoukaiseki.tuuyou.logger.PrintLogs;
 
 public class TestXml extends PrintLogs{
 //	public static String fileName =  "/tmp/del/testxml/database-configure.xml";

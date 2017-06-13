@@ -1,4 +1,4 @@
-import com.shoukaiseki.syso.TerminalCursorControl;
+import org.shoukaiseki.syso.TerminalCursorControl;
 
 
 public class TestTerminal {

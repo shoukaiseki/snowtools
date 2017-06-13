@@ -9,8 +9,8 @@ import java.util.Properties;
 import jxl.demo.Write;
 
 import com.ibm.icu.text.SimpleDateFormat;
-import com.shoukaiseki.sql.ReadDatabaseConfigure;
-import com.shoukaiseki.sql.oracle.OracleSqlDetabese;
+import org.shoukaiseki.sql.ReadDatabaseConfigure;
+import org.shoukaiseki.sql.oracle.OracleSqlDetabese;
 
 
 public class test {

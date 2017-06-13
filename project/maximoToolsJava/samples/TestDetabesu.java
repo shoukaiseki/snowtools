@@ -6,13 +6,12 @@ import java.text.SimpleDateFormat;
 import java.util.zip.ZipFile;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.maximo.app.MTException;
-import com.maximo.app.MessageOnTerminal;
-import com.maximo.app.OutMessage;
-import com.maximo.app.config.ReadDruidDataSourceKonnfigu;
-import com.maximo.tools.impxml.task.Table;
-import com.shoukaiseki.sql.oracle.OracleSqlDetabese;
-import com.tomaximo.test;
+import org.maximo.app.MTException;
+import org.maximo.app.MessageOnTerminal;
+import org.maximo.app.OutMessage;
+import org.maximo.app.config.ReadDruidDataSourceKonnfigu;
+import org.maximo.tools.impxml.task.Table;
+import org.shoukaiseki.sql.oracle.OracleSqlDetabese;
 
 
 public class TestDetabesu {

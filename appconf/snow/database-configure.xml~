@@ -1,0 +1,1985 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+	<Reference name="crpnr">
+		<RefAddresses>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@172.21.96.45:1522:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="initialSize">
+				<Contents>10</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="minPoolSize">
+				<Contents>15</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="maxPoolSize">
+				<Contents>30</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="maxActive">
+				<Contents>25</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="crpxz_zsk_maxdb">
+		<RefAddresses>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@172.22.48.254:1522:eamcrpjs</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maxdb</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="initialSize">
+				<Contents>10</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="minPoolSize">
+				<Contents>15</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="maxPoolSize">
+				<Contents>30</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="maxActive">
+				<Contents>25</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="crpxz_101_7001" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo7001</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>orclasus</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>172.22.48.101</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@172.22.48.101:1521/orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="orclasus" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>asus</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>orclasus</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>0503F1C620880D95ABC94B04E9E2B8F304</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="maximo75_luyang" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>maximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>luyang</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>maximo75_luyang</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:maximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>05F7F13577D813E08E33E5FCC74E3468FD</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="maximo75_ly163" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>maximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>ly163</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>maximo75_ly163</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:maximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>053ABA637874ED7A97963BC1903EC3AE98</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.22测试库" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>test22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>test</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.22测试库</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.59.67.22:1521:test22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>056540286C7AD060EBB3BB2961EE885353</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.6正式库" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="serviceName">
+				<Contents>eam</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.6</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.6正式库</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.59.67.6:1521/eam</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.7正式库" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="serviceName">
+				<Contents>eam</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.7正式库</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.7</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.59.67.7:1521/eam</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.24测试库" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.24测试库</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.24</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.59.67.24:1521:maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>0534033356BDC67F35062FD7A5364DBC1A</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="珠海金湾" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>mxes</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>珠海金湾</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.192.189.9</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.192.189.9:1521:mxes</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>05DCB5B568BB4BCD7DC90EA1CD6F942025</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.22test22测试库" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>ctginst1</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.22test22测试库</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>192.168.254.45</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@192.168.254.45:1521:ctginst1</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>0501E4986CA09E80250EF6DB2F04502ADE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="lytest" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>lytest</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>192.168.1.165</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@192.168.1.165:1521:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>051278E003A1E42C7BB30F0AE87B334F8E</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.22orclzhjq" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>test22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>orclzhjq</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.22orclzhjq</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.59.67.22:1521:test22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>054A1E895D77014BE348F5ED737BB1559423471EB05A117AE8</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="192.168.2.105maximo" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>192.168.2.105maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>192.168.2.105</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@192.168.2.105:1521:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>059B184E7BE53E37BDF3A43A839A5BD923</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="orclzhjq" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>orclzhjq</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>orclzhjq</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>0581834A360691CC301305DA5358C5DC841907177E519998E7</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.22shoukaiseki" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>test22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>shoukaiseki</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.22shoukaiseki</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.59.67.22:1521:test22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>051CC376EB5B2B0B19E40EC8D8BA98896C281B9F5A764CBE87</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="suncjorcl1" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl1</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>liyan</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>suncjorcl1</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>192.168.2.100</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@192.168.2.100:1521:orcl1</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>0516B2557707CE3488E175AB8BAABC5108</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="maximo75_maximo" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>maximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>maximo75_maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:maximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>055D1281A42DF0C4AD821FE80F415FC46F</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="ly163" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>lymis</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>ly163</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.37.74.165</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.37.74.165:1521:lymis</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="maximo75dba" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>maximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>system</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>maximo75dba</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:maximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>0573014A7CF76C932F55702A825CF65985</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.28绝对正式库" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>ADVANCED</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.28绝对正式库</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.59.67.6)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.59.67.7)(PORT=1521)))(CONNECT_DATA=(SERVER=dedicated)(SERVICE_NAME=eam)))</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="orclmaximo75" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>orclmaximo75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>05DFE6AC65061935799A7C66496FCF6641AD6B7101653AAA8E</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.28绝对正式库6" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="serviceName">
+				<Contents>eam</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.6</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.28绝对正式库6</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.59.67.6:1521/eam</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.28绝对正式库7" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="serviceName">
+				<Contents>eam</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.7</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.28绝对正式库7</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.59.67.7:1521/eam</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="10.59.67.22dba" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>test22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>system</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>10.59.67.22dba</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.59.67.22:1521:test22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>05F6DA9A69CDDA7A132924CCC5FC92722F</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="珠海金湾正式库" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="serviceName">
+				<Contents>jwdb</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>珠海金湾正式库</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.192.190.55</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.192.190.55:1521/jwdb</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>057E20884ABC80AC41448DA9B67B770B55</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="orcltestuser" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>testuser</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>orcltestuser</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>053A4D0D023FE20E957911BFB64E5AF787C6D1B9AC23DABFBE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="orcldba" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>sys</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents>SYSDBA</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>orcldba</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>05A29A93B5884D039C8512CCA6AADF34C1</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="阜陽測試庫" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>ADVANCED</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo_75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>阜陽測試庫</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@192.168.20.222:1521:maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>maximo_75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="王さん" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>zhjqmaximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>王さん</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>192.168.2.101</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@192.168.2.101:1521:zhjqmaximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="orcl" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>localhost</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@localhost:1521:orcl</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>05D5A00F0B9B26870DD65A76AF91B2DC53</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="珠海金湾测试库" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>jwdb</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>珠海金湾测试库</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.192.190.55</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.192.190.55:1521:jwdb</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>05290A9F37E931F32B85F1C0E4B605A258</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="珠海金湾库" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="sid">
+				<Contents>mxes</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>珠海金湾库</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.192.189.9</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@10.192.189.9:1521:mxes</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>05D9E1213738250F2BBEB5FB00A7F4AA3C</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="as" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>BASIC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="port">
+				<Contents>1521</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>shoukaiseki</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>as</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="hostname">
+				<Contents>10.59.67.22</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>05AE3456BDAFFD1CFCFC67240E133FCDB452D00F27B3A43666</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.driver.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="阜阳测试库maximo_75" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>ADVANCED</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo_75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>阜阳测试库maximo_75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@192.168.20.201:1521:fymaximodemo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>maximo_75</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="阜阳测试库maximo" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>ADVANCED</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>阜阳测试库maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@192.168.20.201:1521:fymaximodemo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+	<Reference name="湖南maximo" className="oracle.jdeveloper.db.adapter.DatabaseProvider" xmlns="">
+		<Factory className="oracle.jdeveloper.db.adapter.DatabaseProviderFactory"/>
+		<RefAddresses>
+			<StringRefAddr addrType="OracleConnectionType">
+				<Contents>ADVANCED</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="oraDriverType">
+				<Contents>thin</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="user">
+				<Contents>maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="role">
+				<Contents/>
+			</StringRefAddr>
+			<StringRefAddr addrType="NoPasswordConnection">
+				<Contents>TRUE</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="subtype">
+				<Contents>oraJDBC</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="KERBEROS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="OS_AUTHENTICATION">
+				<Contents>false</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="RaptorConnectionType">
+				<Contents>Oracle</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="ConnName">
+				<Contents>湖南maximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="customUrl">
+				<Contents>jdbc:oracle:thin:@192.168.1.106:1521:hnmaximo</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="password">
+				<Contents>058FF232AFC6EF4799A46C719CB1D15D86</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="SavePassword">
+				<Contents>true</Contents>
+			</StringRefAddr>
+			<StringRefAddr addrType="driver">
+				<Contents>oracle.jdbc.OracleDriver</Contents>
+			</StringRefAddr>
+		</RefAddresses>
+	</Reference>
+</References>
