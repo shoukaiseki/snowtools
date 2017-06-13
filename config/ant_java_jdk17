@@ -1,0 +1,46 @@
+#!/bin/bash - 
+#===============================================================================
+#
+#          FILE: 1.sh
+# 
+#         USAGE: ./1.sh 
+# 
+#   DESCRIPTION: 
+# 
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: YOUR NAME (), 
+#  ORGANIZATION: 
+#       CREATED: 2013年06月28日 21时12分45秒 CST
+#      REVISION:  ---
+#===============================================================================
+
+#set -o nounset                              # Treat unset variables as an error
+JAVA_ANTPROJECTLIB=$JAVA_ANTPROJECT/javaant/libs
+JAVA_JDK17=/media/linux/data/opt/java/jdk1.7.0_04
+JAVA_JDK7U25=/media/linux/data/opt/java/jdk1.7.0_25
+JAVA_JDK16=/media/linux/data/opt/java/jdk160_05
+JAVA_HOME=$JAVA_JDK17
+PATH=$JAVA_HOME/bin:$PATHOLD
+#$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/jre/lib/rt.jar:/home/fedora/.vim/:
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/resources.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/rt.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/jsse.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/jce.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/charsets.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/jfr.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/ext/localedata.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/ext/sunec.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/ext/dnsns.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/ext/sunjce_provider.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/ext/sunpkcs11.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/jre/lib/ext/zipfs.jar
+CLASSPATH=$CLASSPATH:$JAVA_HOME/lib/tools.jar
+CLASSPATH=.:$CLASSPATH:
+export JAVA_HOME PATH CLASSPATH
+#echo "JAVA_HOME="$JAVA_HOME
+#echo "CLASSPATH="$CLASSPATH
+#echo "PATH="$PATH
+

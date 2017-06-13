@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="DESKTOP-O0UJNGC" name="com.maximo.app.config.TestReadReadMXServerConfigTestSuite" skipped="0" tests="1" time="0.0" timestamp="2017-06-10T00:53:04">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/../../libs" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="testclasses.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/test-classes" />
+    <property name="gwt-sdk" value="/media/develop/antProject/javaant/libs/weblib/gwt/google-gwt/gwt-2.5.1" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="D:\usr\java\jdk1.8.0_131\jre\lib\resources.jar;D:\usr\java\jdk1.8.0_131\jre\lib\rt.jar;D:\usr\java\jdk1.8.0_131\jre\lib\sunrsasign.jar;D:\usr\java\jdk1.8.0_131\jre\lib\jsse.jar;D:\usr\java\jdk1.8.0_131\jre\lib\jce.jar;D:\usr\java\jdk1.8.0_131\jre\lib\charsets.jar;D:\usr\java\jdk1.8.0_131\jre\lib\jfr.jar;D:\usr\java\jdk1.8.0_131\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="appengine-sdk-1.8.0" value="/media/develop/antProject/javaant/libs/weblib/gwt/appengine-java-sdk-1.8.0" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\usr\apache\apache-ant-1.9.5" />
+    <property name="gxt-sdk-3.0.1-GPL" value="/media/linux/data/java/weblib/gwt/gxt3.0/gxt-3.0.1-GPL" />
+    <property name="java.runtime.version" value="1.8.0_131-b11" />
+    <property name="release.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/release" />
+    <property name="user.name" value="shoukaiseki" />
+    <property name="title" value="maximoToolsJava" />
+    <property name="debug" value="on" />
+    <property name="test.excludes" value="**/Abstract*" />
+    <property name="gxt-sdk" value="/media/linux/data/java/weblib/gwt/gxt3.0/gxt-3.0.1-GPL" />
+    <property name="javaCompiler" value="D:/usr/java/jdk1.7.0_51/bin/javac.exe" />
+    <property name="user.language" value="zh" />
+    <property name="samples.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/samples" />
+    <property name="sun.boot.library.path" value="D:\usr\java\jdk1.8.0_131\jre\bin" />
+    <property name="reports.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/test-reports" />
+    <property name="ant.project.default-target" value="build_no_doc_release" />
+    <property name="ant.project.name" value="maximoToolsJava" />
+    <property name="java.version" value="1.8.0_131" />
+    <property name="version" value="0.0.1" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="filename" value="maximoToolsJava" />
+    <property name="appengine-sdk" value="/media/develop/antProject/javaant/libs/weblib/gwt/appengine-java-sdk-1.8.0" />
+    <property name="java.endorsed.dirs" value="D:\usr\java\jdk1.8.0_131\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="CN" />
+    <property name="java.home" value="D:\usr\java\jdk1.8.0_131\jre" />
+    <property name="dist.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/dist" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="E:\antProject\javaant\javaProject\maximoToolsJava\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.131-b11" />
+    <property name="release.zip" value="maximoToolsJava-0.0.1.zip" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\usr\apache\apache-ant-1.9.5\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="javadocs.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/docs/api" />
+    <property name="gwt-sdk-2.5.1" value="/media/develop/antProject/javaant/libs/weblib/gwt/google-gwt/gwt-2.5.1" />
+    <property name="sun.stdout.encoding" value="ms936" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\shoukaiseki" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/test" />
+    <property name="java.library.path" value="D:\usr\java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Users\shoukaiseki\AppData\Roaming\..\Local\RH\AndroidLib;D:\usr\TortoiseGit\bin;D:\usr\Git\cmd;C:\Users\shoukaiseki\AppData\Local\Microsoft\WindowsApps;D:\bin;D:\usr\java\jdk1.8.0_131\bin;." />
+    <property name="name" value="maximoToolsJava" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="copyright" value="Copyright (C) 2011-2013 Robert Breidecker." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="java.class.path" value="D:\usr\apache\apache-ant-1.9.5\lib\ant-launcher.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-antlr.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-apache-bcel.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-apache-bsf.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-apache-log4j.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-apache-oro.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-apache-regexp.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-apache-resolver.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-apache-xalan2.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-commons-logging.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-commons-net.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-jai.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-javamail.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-jdepend.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-jmf.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-jsch.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-junit.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-junit4.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-launcher.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-netrexx.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-swing.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant-testutil.jar;D:\usr\apache\apache-ant-1.9.5\lib\ant.jar;D:\usr\apache\apache-ant-1.9.5\lib\svnant.jar;D:\usr\apache\apache-ant-1.9.5\lib\svnClientAdapter.jar;D:\usr\apache\apache-ant-1.9.5\lib\svnjavahl.jar;D:\usr\apache\apache-ant-1.9.5\lib\svnkit.jar;D:\usr\java\jdk1.8.0_131\lib\tools.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.5 compiled on May 31 2015" />
+    <property name="ant.file.maximoToolsJava" value="E:\antProject\javaant\javaProject\maximoToolsJava\build.xml" />
+    <property name="ProjectName" value="maximoToolsJava" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="jdk1.7.0_04" value="D:/usr/java/jdk1.7.0_51/bin/javac.exe" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="junit.reports.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/test-reports" />
+    <property name="java.io.tmpdir" value="C:\Users\SHOUKA~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="x86" />
+    <property name="java.ext.dirs" value="D:\usr\java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="jdk1.8.0_05" value="D:/usr/java/jdk1.8.0_131/bin/javac.exe" />
+    <property name="test.includes" value="**/*TestSuite.class **/*Tests.class" />
+    <property name="basedir" value="E:\antProject\javaant\javaProject\maximoToolsJava" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="release.path" value="maximoToolsJava-0.0.1" />
+    <property name="ant.core.lib" value="D:\usr\apache\apache-ant-1.9.5\lib\ant.jar" />
+    <property name="sun.stderr.encoding" value="ms936" />
+    <property name="file.encoding" value="GBK" />
+    <property name="samplesclasses.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/samples-classes" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="E:\antProject\javaant\javaProject\maximoToolsJava/src" />
+    <property name="ant.project.invoked-targets" value="build_no_doc_release" />
+    <property name="jdk160_05" value="/media/linux/data/opt/java/jdk160_05/bin/javac" />
+    <property name="ant.file.type.maximoToolsJava" value="file" />
+  </properties>
+  <error type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException
+	at com.shoukaiseki.tuuyou.logger.PrintLogs.error(PrintLogs.java:208)
+	at com.maximo.app.MessageOnTerminal.error(MessageOnTerminal.java:79)
+	at com.maximo.app.config.ReadMXServerConfig.&lt;init&gt;(ReadMXServerConfig.java:44)
+	at com.maximo.app.config.TestReadReadMXServerConfigTestSuite.suite(TestReadReadMXServerConfigTestSuite.java:16)
+</error>
+  <system-out><![CDATA[測試 TestReadReadMXServerConfigTestSuite.suite()
+-----------------加載lC:\Users\shoukaiseki/.config/shoukaiseki/java/log4j.properties----------------
+]]></system-out>
+  <system-err><![CDATA[java.io.FileNotFoundException: C:\Users\shoukaiseki\.config\shoukaiseki\java\log4j.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.shoukaiseki.tuuyou.logger.PrintLogs.loadLog4j(PrintLogs.java:98)
+	at com.shoukaiseki.tuuyou.logger.PrintLogs.<init>(PrintLogs.java:75)
+	at com.maximo.app.MessageOnTerminal.<init>(MessageOnTerminal.java:17)
+	at com.maximo.app.config.TestReadReadMXServerConfigTestSuite.suite(TestReadReadMXServerConfigTestSuite.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:405)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1621)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:1021)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:2105)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:832)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1405)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1376)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1260)
+	at org.apache.tools.ant.Main.runBuild(Main.java:853)
+	at org.apache.tools.ant.Main.startAnt(Main.java:235)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:285)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:112)
+]]></system-err>
+</testsuite>

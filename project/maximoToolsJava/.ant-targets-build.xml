@@ -1,0 +1,10 @@
+build
+build_no_doc_release
+clean
+compile
+compilesamples
+compiletests
+jar
+javadoc
+release
+tests

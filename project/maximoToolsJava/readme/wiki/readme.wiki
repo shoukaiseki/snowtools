@@ -1,0 +1,9 @@
+= 設計思路 =
+主对象:主对象也就是一个TABLE,所以会保存一个主TABLE(ImpXmlTable)的变量,变量名为rootIxt
+主对象会向TABLE提供Element的xml标签,TABLE就可以获取所有跟该表有关系的信息.
+
+
+
+
+= 标签 =
+== STATICDEFAULTSET ==
