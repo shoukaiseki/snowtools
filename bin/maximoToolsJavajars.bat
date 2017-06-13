@@ -1,0 +1,22 @@
+@REM maximoToolsJava 項目下的包
+echo off
+set CLASSPATH=%CLASSPATH%;%JAVA_ANTPROJECT%/javaant/javaProject/maximoToolsJava/classes
+set CLASSPATH=%CLASSPATH%;%JAVA_ANTPROJECT%/javaant/javaProject/maximoToolsJava/samples-classes
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/maximolib/maximo7.5/jscrp/businessobjects_js.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/weblib/druid-0.2.9.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/mylib/shoukaiseki.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/log4j-1.2.17.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/icu4j.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/classes12.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/dom4j-1.6.1.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/junit-3.8.1.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/poi-3.8-20120326.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/poi-ooxml-3.8-20120326.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/poi-ooxml-schemas-3.8-20120326.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/xmlbeans-2.3.0.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/bsh-2.0b4.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/cpdetector_1.0.10.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/javalib/chardet-1.0.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/mylib/maximoToolsJava.jar
+set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/mylib/maximoToolsWeb.jar
+@ECHO ON

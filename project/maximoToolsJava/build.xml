@@ -23,7 +23,7 @@
 			<!--/media/develop/antProject/javaant/libs/-->
 			<include name="maximolib/maximo7.5/businessobjects.jar"/>
 			<include name="druid-0.2.9.jar"/>
-			<include name="shoukaiseki.jar"/>
+			<include name="mylib/shoukaiseki.jar"/>
 			<include name="log4j-1.2.17.jar"/>
 			<!--
 			<include name="icu4j.jar"/>

@@ -1,0 +1,45 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<RESULTS TABLE="TEST1" APPNAME="" INCLUDEATTS="A,B,C,D,E,F,G,H" EXCLUDEATTS="" JDBCNAME="105_orcl" JDBCNAMEBAK="localhost_gbkorcl" EXCLE="">
+
+
+	<TRIGGERBEANSHELL ISENABLED="OFF" ACLASS="com.maximo.app.config.TestTriggerBSH2"><![CDATA[
+		]]>
+	</TRIGGERBEANSHELL>
+
+	<EXCLEDATA NAME="test.xls" TITLECOUNT="1" SHEET="2">
+		<EDCOLUMN COLUMNNAME="F" CELLNAME="F"><![CDATA[
+			//將excle讀出的 1.0 格式 轉化成 1
+			if(ixf.isNullOrTrimEmpty(value)){
+				return "";
+			}
+			//om.info(value);
+			return new java.text.DecimalFormat("0000.0").parse(value)+"";
+			]]></EDCOLUMN>
+		<EDCOLUMN COLUMNNAME="H" CELLNAME="H"><![CDATA[
+			//將excle讀出的 1.0 格式 轉化成 1
+			if(ixf.isNullOrTrimEmpty(value)){
+				return "";
+			}
+			//om.info(value);
+			return new java.text.DecimalFormat("0000.0").parse(value)+"";
+			]]></EDCOLUMN>
+	</EXCLEDATA>
+	<EXCLEDATA NAME="test.xls" TITLECOUNT="1" SHEET="11">
+		<EDCOLUMN COLUMNNAME="F" CELLNAME="F"><![CDATA[
+			//將excle讀出的 1.0 格式 轉化成 1
+			if(ixf.isNullOrTrimEmpty(value)){
+				return "";
+			}
+			//om.info(value);
+			return new java.text.DecimalFormat("0000.0").parse(value)+"";
+			]]></EDCOLUMN>
+		<EDCOLUMN COLUMNNAME="H" CELLNAME="H"><![CDATA[
+			//將excle讀出的 1.0 格式 轉化成 1
+			if(ixf.isNullOrTrimEmpty(value)){
+				return "";
+			}
+			//om.info(value);
+			return new java.text.DecimalFormat("0000.0").parse(value)+"";
+			]]></EDCOLUMN>
+	</EXCLEDATA>
+</RESULTS>
