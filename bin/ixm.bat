@@ -32,3 +32,4 @@ cd /D %CURRENT_DIR%
 goto end
 :end
 @ECHO ON
+

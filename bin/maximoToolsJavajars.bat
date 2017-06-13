@@ -40,3 +40,4 @@ set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/xom-1.1.jar
 set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/mylib/shoukaiseki.jar
 set CLASSPATH=%CLASSPATH%;%SNOW_LIB%/mylib/maximoToolsJava.jar
 @ECHO ON
+

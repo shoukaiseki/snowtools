@@ -75,3 +75,4 @@ set CLASSPATH=%CLASSPATH%;.;
 goto end
 :end
 @ECHO ON
+
