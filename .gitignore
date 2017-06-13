@@ -25,3 +25,7 @@ hs_err_pid*
 /*.md~
 /bin/*.swp
 /bin/*.swp
+*.un~
+*.swp
+*~
+*.un~
