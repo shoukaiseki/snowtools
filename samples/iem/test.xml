@@ -1,5 +1,5 @@
 <?xml version='1.0'  encoding='UTF-8' ?>
-<RESULTS TABLE="TEST1" APPNAME="" INCLUDEATTS="A,B,C,D,E,F,G,H" EXCLUDEATTS="" JDBCNAME="localhost_orcl"  EXCLE="">
+<RESULTS TABLE="SNOW_TEST1" APPNAME="" INCLUDEATTS="A,B,C,D,E,F,G,H" EXCLUDEATTS="" JDBCNAME="localhost_orcl"  EXCLE="">
 
 
 	<TRIGGERBEANSHELL ISENABLED="OFF" ACLASS="org.maximo.app.config.TestTriggerBSH2"><![CDATA[
