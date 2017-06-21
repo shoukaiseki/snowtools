@@ -11,14 +11,15 @@
 <!--jdk1.6-->
 <!--jdk1.7-->
 <!--jdk1.8-->
-<!--javaCompiler 編譯是使用的默認jdk -->
+<!--jdk1.7 編譯是使用的默認jdk -->
 <project name="shoukaiseki" default="build_no_doc_release" basedir=".">
 	<!-- 引用外部配置文件 {{{1 -->
 	<property file="build.properties"/>
 	<!--<property file="../jdk_linux.properties"/>-->
 	<!--
 	  -->
-	  <property file="../jdk_win.properties"/>
+	<property file="../jdk_win.properties"/>
+	  
 
 	<path id="libs">
 		<fileset dir="${lib.dir}">
@@ -79,10 +80,11 @@
 
 	<target name="compile" depends="" description="Compile main source tree Java files into class files">
 		<mkdir dir="${classes.dir}"/>
-
+		<echo message="jdk1.7=${jdk1.7}"/>
+		
 		<javac destdir="${classes.dir}" debug="${debug}"
 			fork="yes"
-			executable="${javaCompiler}"
+			executable="${jdk1.7}"
 			encoding="UTF-8"
 			deprecation="false" optimize="false" failonerror="true" includeAntRuntime="false">
 			<!--<javac destdir="${classes.dir}" includeAntRuntime="false" >-->
@@ -120,7 +122,9 @@
 	<target name="compilesamples" depends="compile" description="Compile test source tree java files into class files">
 		<mkdir dir="${samplesclasses.dir}"/>
 
+		<echo message="jdk1.7=${jdk1.7}"/>
 		<javac destdir="${samplesclasses.dir}" 
+			executable="${jdk1.7}"
 			debug="${debug}"
 			encoding="UTF-8"
 			deprecation="false" optimize="false" failonerror="true" includeAntRuntime="false">
@@ -137,7 +141,8 @@
 				<include name="**/*.java"/>
 			</fileset>
 		</copy>
-		<jar jarfile="${dist.dir}/shoukaiseki.jar">
+		<jar jarfile="${dist.dir}/shoukaiseki.jar"
+			>	
 			<fileset dir="${classes.dir}">
 				<include name="META-INF/**"/>
 				<include name="**"/>
