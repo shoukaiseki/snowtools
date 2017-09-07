@@ -1,0 +1,196 @@
+
+ ----------------------------------
+ ---空压机系统
+ ----------------------------------
+
+			String tablename="testkyjxt";
+			String ssupername="1";//H0LK的父级名,如果
+			String supername="H0LK";//H0LKA01的父级名,如果跟此字符相同则置父级名为ssupername
+			int superint=7;//复制到父级的字符数,如果跟此字符数长度相同则置父级名为supername
+							//字符数不同则复制前7位作为父级名
+
+ ----------------------------------
+ ---灰水专业
+ ----------------------------------
+			String tablename="testhszy";
+			String ssupername="2";//H0LK的父级名,如果
+			int ssupernameint=5;//如果字符为5位,则置父级名为ssupername
+			int supernameint=5;//
+			int superint=7;//复制到父级的字符数,如果跟此字符数长度相同则复制前'supernameint'位作为父级名
+							//字符数不同则复制前7位作为父级名
+ 
+ ----------------------------------
+ ---#3、4机KKS编码
+ ----------------------------------
+ 
+select * from test34qj order by id;
+
+ select *
+  from test34qj a
+ where exists (select *
+          from test34qj b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+ 
+ ----------------------------------
+ ---#5、6机KKS编码
+ ----------------------------------
+select * from test56qj order by id;
+
+select count(*) from test56qj;--统计总条数
+
+ select *
+  from test56qj a
+ where exists (select *
+          from test56qj b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+ 
+ ----------------------------------
+ ---化工分场编码
+ ----------------------------------
+select * from testhgfc order by id;
+
+select count(*) from testhgfc;--统计总条数
+
+ select *
+  from testhgfc a
+ where exists (select *
+          from testhgfc b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+  ----------------------------------
+ ---输煤
+ ----------------------------------
+ select * from testsm for update;
+select * from testsm order by id;
+
+select count(*) from testsm;--统计总条数
+
+ select *
+  from testsm a
+ where exists (select *
+          from testsm b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+ ----------------------------------
+ --- 3、4锅炉专业KKS编码汇总表
+ ----------------------------------
+ select * from test34glall for update;
+select * from test34glall order by id;
+
+select count(*) from test34glall;--统计总条数
+
+ select *
+  from test34glall a
+ where exists (select *
+          from test34glall b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+ 
+ 
+ ----------------------------------
+ --- 5、6锅炉KKS编码
+ ----------------------------------
+ select * from test56gl for update;
+select * from test56gl order by id;
+
+select count(*) from test56gl;--统计总条数
+
+ select *
+  from test56gl a
+ where exists (select *
+          from test56gl b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+ 
+ 
+ ----------------------------------
+ --- #5、6锅炉公用系统KKS编码汇总表
+ ----------------------------------
+ select * from test56glall for update;
+select * from test56glall order by id;
+
+select count(*) from test56glall;--统计总条数
+
+ select *
+  from test56glall a
+ where exists (select *
+          from test56glall b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+  ----------------------------------
+ --- 里彦热工 #34炉专业KKS编码汇总表
+ ----------------------------------
+ select * from testrg34glall for update;
+select * from testrg34glall order by id;
+
+select count(*) from testrg34glall;--统计总条数
+
+ select *
+  from testrg34glall a
+ where exists (select *
+          from testrg34glall b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+ 
+ 
+
+  ----------------------------------
+ --- 里彦热工 #3、4机KKS编码
+ ----------------------------------
+ select * from testrg34gl for update;
+select * from testrg34gl order by id;
+
+select count(*) from testrg34gl;--统计总条数
+
+ select *
+  from testrg34gl a
+ where exists (select *
+          from testrg34gl b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+ 
+   ----------------------------------
+ --- 化学、电除尘、皮带      --无重复记录
+ ----------------------------------
+ select * from testrghxdccpd for update;
+select * from testrghxdccpd order by id;
+
+select count(*) from testrghxdccpd;--统计总条数
+
+ select *
+  from testrghxdccpd a
+ where exists (select *
+          from testrghxdccpd b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+
+
+ ----------------------------------
+ --- 里彦热工编码      --无重复记录
+ ----------------------------------
+ select * from testrglyrgbm for update;
+select * from testrglyrgbm order by id;
+
+select count(*) from testrglyrgbm;--统计总条数
+
+ select *
+  from testrglyrgbm a
+ where exists (select *
+          from testrglyrgbm b
+         where b.xggym = a.xggym
+           AND a.id <> b.id)
+ ORDER BY error;
+ 
+ 
